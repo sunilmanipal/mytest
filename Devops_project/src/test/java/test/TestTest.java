@@ -4,7 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class Test_New {
+public class TestTest {
 	@BeforeTest
 	public void bf()
 	{
@@ -15,7 +15,7 @@ public class Test_New {
 	  System.out.println("It's Working");
   }
   
-  @Test 
+  @Test
   public void Test() {
 	  Assert.assertTrue(true);
   }
