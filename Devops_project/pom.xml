@@ -5,27 +5,6 @@
 	<artifactId>Devops_project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<build>
-
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-					<compilerArguments>
-						<encoding>${project.build.sourceEncoding}</encoding>
-					</compilerArguments>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.testng</groupId>
-				<artifactId>testng</artifactId>
-				<version>6.8</version>
-			</plugin>
-		</plugins>
-	</build>
 	<dependencies>
 		<dependency>
 			<groupId>org.testng</groupId>
