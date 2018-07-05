@@ -14,6 +14,7 @@ public class StringCalculatorTest {
 	@Test(expected = RuntimeException.class)
 	public void testIsNumberLengthGreaterThanTwo() {
 		StringCalculator.add("1,2,3");
+		System.out.println("this is ");
 	}
 
 	/*@Test
