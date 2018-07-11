@@ -5,8 +5,15 @@ import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.testng.annotations.BeforeTest;
 
 public class StringCalculatorTest {
+	
+	@BeforeTest
+	public void sun()
+	{
+		System.out.println("Start");
+	}
 
 	@Test
 	public void testAdd() {
